@@ -10,8 +10,8 @@
 <th>Menara Standard Chartered, TPM</th>           
 <th>03-22441234</th>                   </tr>  
   
-  <?php        $serverName = "simplewebTP045200.database.windows.net";       
-  $connectionOptions = array("Database" => "tp045200",                      
+  <?php        $serverName = "tp045200.database.windows.net";       
+  $connectionOptions = array("Database" => "simplewebTP045200 ",                      
                              "Uid" => "apuadmin",                            
                              "PWD" => "#Tp045200"); //Establishes the connection       
   $conn = sqlsrv_connect($serverName, $connectionOptions); if (!$conn) {            
