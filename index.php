@@ -18,9 +18,8 @@
  <th>Subway Restaurant</th>    
  <th>Menara Standard Chartered, TPM</th>       
  <th>03-22441234</th>     
- </tr>  
-
-<?php    
+ </tr> 
+	 <?php    
     $serverName = "simplewebtp045200.database.windows.net";      
 	$connectionOptions = array(                           
 	"Database" => "simpleweb",                        
@@ -38,6 +37,8 @@
 	echo "<td>". $row['restaurant_phone'] . "</td>";            
 	echo "</tr>";         }     
 	sqlsrv_free_stmt($getResults); ?> 
+
+
  </table>        
  </center>   
  </body>
